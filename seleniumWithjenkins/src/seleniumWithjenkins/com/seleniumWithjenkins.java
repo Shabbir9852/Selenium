@@ -22,7 +22,7 @@ public class seleniumWithjenkins {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//*[@class='a-size-medium a-color-base a-text-normal']")).click();
 		System.out.println("The page Title is: " + driver.getTitle());
-		System.out.println("helloo world");
+		System.out.println("Hello World");
 		
 	}
 	
